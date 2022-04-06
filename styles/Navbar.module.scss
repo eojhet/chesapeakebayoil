@@ -1,0 +1,24 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  background-color: hsla(208, 71%, 56%, 0.2);
+  align-items: center;
+  justify-content: center;
+  border-top: 2px solid hsla(14, 71%, 56%, 0.5);
+  border-bottom: 2px solid hsla(14, 71%, 56%, 0.5);
+
+  .svg {
+    margin: 2rem;
+  }
+
+  h2 {
+    font-size: 1.6em;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .nav {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="148.96358mm"
+   height="60.499096mm"
+   viewBox="0 0 148.96358 60.499096"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="ChesapeakeBayOilOpt.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#adadad"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="1.0607991"
+     inkscape:cx="172.98281"
+     inkscape:cy="3.2993996"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect38983"
+       is_visible="true"
+       lpeversion="1"
+       satellites_param="F,0,0,1,0,15.875,0,1 @ F,0,0,1,0,15.875,0,1 @ F,0,0,1,0,15.875,0,1 @ F,0,0,1,0,15.875,0,1"
+       unit="px"
+       method="auto"
+       mode="F"
+       radius="60"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect31508"
+       is_visible="true"
+       lpeversion="1"
+       satellites_param="F,0,0,1,0,15.875,0,1 @ F,0,0,1,0,15.875,0,1 @ F,0,0,1,0,15.875,0,1 @ F,0,0,1,0,15.875,0,1"
+       unit="px"
+       method="auto"
+       mode="F"
+       radius="60"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-27.205246,-142.71668)">
+    <path
+       id="rect31052"
+       style="fill:#4093de;fill-opacity:1;stroke:#ffffff;stroke-width:1.028;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 40.061995,142.90787 H 149.59404 a 19.905584,19.905584 38.572882 0 1 19.40673,15.47716 l 6.65458,29.1624 a 12.660549,12.660549 128.57288 0 1 -12.34327,15.47716 H 53.780035 A 19.905584,19.905584 38.572882 0 1 34.3733,187.54743 l -6.65457,-29.1624 a 12.660549,12.660549 128.57288 0 1 12.343265,-15.47716 z"
+       inkscape:path-effect="#path-effect31508"
+       inkscape:original-d="M 24.186995,142.90787 H 165.46904 l 13.71804,60.11672 H 37.905035 Z"
+       sodipodi:nodetypes="ccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:21.1667px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.543704"
+       x="32.559208"
+       y="164.8792"
+       id="text6174"><tspan
+         sodipodi:role="line"
+         id="tspan6172"
+         style="font-size:21.1667px;fill:#ffffff;fill-opacity:1;stroke-width:0.543704"
+         x="32.559208"
+         y="164.8792">Chesapeake</tspan></text>
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:0.77;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 31.333249,174.09439 H 172.60477"
+       id="path31781"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#4775f5;fill-opacity:1;stroke:none;stroke-width:1.78145;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       d="m 192.77921,765.35779 c -24.02705,-3.52471 -44.61586,-18.64546 -55.69582,-40.9039 -3.63374,-7.29979 -5.06994,-12.16891 -10.28805,-34.87937 -3.3356,-14.51736 -6.29996,-27.34966 -6.58746,-28.51624 l -0.52273,-2.12104 h 265.85531 c 146.22041,0 265.85529,0.13864 265.85529,0.30809 0,0.16945 2.75373,12.36544 6.11939,27.10221 4.40581,19.29114 6.12165,28.66002 6.12746,33.45749 0.0235,19.40927 -12.38898,36.66699 -31.648,44.00185 l -5.58001,2.12518 -213.98964,0.12773 c -119.10094,0.0711 -216.4977,-0.24019 -219.64574,-0.702 z"
+       id="path35460"
+       transform="scale(0.26458333)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:21.1667px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="46.797283"
+       y="195.41655"
+       id="text15800"><tspan
+         sodipodi:role="line"
+         id="tspan15798"
+         style="font-size:21.1667px;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+         x="46.797283"
+         y="195.41655">BayOil.com</tspan></text>
+  </g>
+</svg>
