@@ -1,0 +1,42 @@
+.aside {
+  min-width: 260px;
+}
+.form {
+  padding: 1rem;
+  
+  h1 {
+    font-size: 2em;
+  }
+
+  input {
+    width: 100%;
+    padding: 0.3rem;
+    border: 1px solid hsla(208, 71%, 56%, 0.8);
+    border-radius: 4px;
+  }
+
+  textarea {
+    resize: none;
+    width: 100%;
+    margin-bottom: 0.8rem;
+    height: 12rem;
+    border: 1px solid hsla(208, 71%, 56%, 0.8);
+    border-radius: 4px;
+  }
+
+  button {
+    padding: 0.4rem 0.5rem;
+    font-size: 1em;
+    width: 100%;
+    background-color: hsla(208, 71%, 56%, 0.2);
+    border: 1px solid hsla(208, 71%, 56%, 0.8);
+    border-radius: 8px;
+   
+  }
+
+  .warning {
+    text-align: right;
+    font-size: 0.8em;
+    color: hsl(0, 100%, 35%);
+  }
+}
