@@ -67,6 +67,30 @@ export default function ContactUs () {
         (!phone || phone.length > 9) &&
         comment.length > 0){
 
+          let data = {
+            name,
+            email,
+            phone,
+            comment
+          }
+
+          fetch('/api/contact', {
+            method: 'POST',
+            headers: {
+              'Accept': 'application/json, text/plain, */*',
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+          }).then((res) => {
+            if (res.status === 200) {
+              console.log('success');
+              setName('');
+              setEmail('');
+              setPhone('');
+              setComment('');
+            }
+          })
+
     } else {
       nameInput.current.focus();
       emailInput.current.focus();
