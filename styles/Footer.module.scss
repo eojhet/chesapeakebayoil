@@ -3,7 +3,10 @@
   flex-direction: row;
   justify-content: right;
   background-color: #444;
-  height: 3rem;
   color: #eee;
-  padding: 0 10rem;
+
+  .innerContainer {
+    max-width: 1000px;
+    padding: 0.5rem 1rem;
+  }
 }

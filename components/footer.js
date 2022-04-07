@@ -4,7 +4,9 @@ export default function Footer () {
 
   return (
     <footer className={styles.container}>
-      <p>&copy;eojhet 2022</p>
+      <div className={styles.innerContainer}>
+        <p>&copy;eojhet 2022</p>
+      </div>
     </footer>
   )
 }
