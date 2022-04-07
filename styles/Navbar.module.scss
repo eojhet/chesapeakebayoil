@@ -6,15 +6,19 @@
 }
 
 .nav {
-  max-width: 1000px;
+  max-width: 1100px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: auto;
 
   .svg {
     margin: 2rem;
+  }
+
+  .headline {
+    margin-right: 1rem;
   }
 
   h1 {
@@ -30,7 +34,7 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .nav {
     flex-direction: column;
 
