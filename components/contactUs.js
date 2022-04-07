@@ -28,7 +28,8 @@ export default function ContactUs () {
   }
 
   const checkEmail = (e) => {
-    if (!emailReg.test(email)) {
+    setEmail(email.trim());
+    if (!emailReg.test(email.trim())) {
       setEmailWarn("Enter valid email.");
       e.target.style.borderColor = 'red';
     } else {
