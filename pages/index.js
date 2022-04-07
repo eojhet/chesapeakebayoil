@@ -28,7 +28,7 @@ export default function Home() {
             <h3>Unused Heating Oil Tanks</h3>
             <p>{"Over the years, homes have been improved with newer heating systems using natural gas or electricity. Quite often, underground storage tanks are improperly abandoned, leaving the steel tank to rot in the ground without removing its contents. The fuel will eventually leak into the ground and potentially contaminate nearby water bodies and drinking wells."}</p>
             <p>{"These imporperly abandoned tanks are out of sight and out of mind until it is time to sell the property. Home inspectors will typically look for signs of heating oil tanks prior to a property transaction, even if the home isn't currently heated with oil. If one is found, the buyer may insist that the tank be properly abandoned or the will at least request a soil sample to ensure that the soil has not been contaminated."}</p>
-            <p>{"If you have a heating oil tank that is current not-in-use, we can help you find a contractor who can give you options for tank abatement at a low cost. Feel free to leave your information in the form below with any questions or concerns regaring your oil tank and we will be able to assist you within one business day or less."}</p>
+            <p>{"If you have a heating oil tank that is current not-in-use, we can help you find a contractor who can give you options for tank abatement at a low cost. Feel free to leave your information in the Contact Us form with any questions or concerns regaring your oil tank and we will be able to assist you within one business day or less."}</p>
 
           </article>
         </section>
