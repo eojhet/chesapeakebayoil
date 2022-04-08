@@ -1,22 +1,38 @@
-import ContactUs from '../components/contactUs'
-import Footer from '../components/footer'
-import Header from '../components/header'
-import Navbar from '../components/navbar'
-import styles from '../styles/Home.module.scss'
+import { useState } from 'react';
+import ContactUs from '../components/contactUs';
+import Footer from '../components/footer';
+import Header from '../components/header';
+import Modal from '../components/modal';
+import Navbar from '../components/navbar';
+import styles from '../styles/Home.module.scss';
 
 export default function Home() {
+  const [pic1, setPic1] = useState(false);
+  const [pic2, setPic2] = useState(false);
+
   return (
     <>
       <Header />
-      <Navbar />
+      <Navbar />    
+
       <main className={styles.container}>
         <section>
           <article>
             <h3>Aboveground and Underground Storage Tanks</h3>
             <img
+              id='pic1'
               src='/static/tank_ast_ust.jpg'
               alt='Above and below ground heating oil tanks'
+              onClick={() => setPic1(true)}
             />
+
+            <Modal onClose={() => setPic1(false)} show={pic1} title="Aboveground and Underground Storage Tanks">
+              <img
+                src='/static/tank_ast_ust.jpg'
+                alt='Above and below ground heating oil tanks'
+              />
+            </Modal>
+
             <p>{"Aboveground storage tanks are most often installed following the failure of an underground storage tank. Your heating oil tank may just be the tip of the iceburg."}</p>
           </article>
           <article>
@@ -31,9 +47,19 @@ export default function Home() {
           <article>
             <h3>Dead Grass and Staining Near Tank.</h3>
             <img
+              id='pic2'
               src='/static/tank_dead_grass.jpg'
               alt='Photo of dead grass around fill port and vent pipe.'
+              onClick={() => setPic2(true)}
             />
+
+            <Modal onClose={() => setPic2(false)} show={pic2} title="Dead Grass and Staining Near Tank.">
+              <img
+                src='/static/tank_dead_grass.jpg'
+                alt='Photo of dead grass around fill port and vent pipe.'
+              />
+            </Modal>
+
             <p>{"Pictured above is a photo taken after the overflow of an underground heating oil tank. In the bottom left of the photo you can see the fill port of the tank. In the top left is the vent line to the left of the water spigot. This vent line has rotted, allowing water to move into the tank during a heavy rain. Since oil floats on water, the oil surfaced and has contaminated the yard and crawspace. The homeowner complained of strong petroleum odors in the house."}</p>
           </article>
           <article>
