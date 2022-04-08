@@ -1,7 +1,7 @@
+import Head from 'next/head';
 import { useState } from 'react';
 import ContactUs from '../components/contactUs';
 import Footer from '../components/footer';
-import Header from '../components/header';
 import Modal from '../components/modal';
 import Navbar from '../components/navbar';
 import styles from '../styles/Home.module.scss';
@@ -17,7 +17,9 @@ export default function Home() {
 
   return (
     <>
-      <Header />
+      <Head>
+        <title>Home and commercial heating oil storage tank solutions for spills, leaks, removal, abatement, and fill in place questions.</title>
+      </Head>
       <Navbar />    
 
       <main className={styles.container} tabIndex="0" onKeyDown={closeOnEscapeKeyDown}>
