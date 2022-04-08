@@ -10,12 +10,17 @@ export default function Home() {
   const [pic1, setPic1] = useState(false);
   const [pic2, setPic2] = useState(false);
 
+  const closeOnEscapeKeyDown = () => {
+    setPic1(false);
+    setPic2(false);
+  }
+
   return (
     <>
       <Header />
       <Navbar />    
 
-      <main className={styles.container}>
+      <main className={styles.container} tabIndex="0" onKeyDown={closeOnEscapeKeyDown}>
         <section>
           <article>
             <h3>Aboveground and Underground Storage Tanks</h3>

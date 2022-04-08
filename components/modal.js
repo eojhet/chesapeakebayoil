@@ -6,19 +6,6 @@ export default function Modal (props) {
     return null;
   }
 
-  const closeOnEscapeKeyDown = (e) => {
-    if ((e.charCode || e.keyCode) === 27) {
-      props.onClose()
-    }
-  }
-
-  useEffect(() => {
-    document.body.addEventListener('keydown', closeOnEscapeKeyDown);
-    return function cleanup() {
-      document.body.removeEventListener('keydown', closeOnEscapeKeyDown)
-    };
-  }, []);
-
   return (
     <div className={styles.modal} onClick={props.onClose}>
 
