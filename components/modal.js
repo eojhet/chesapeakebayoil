@@ -13,7 +13,7 @@ export default function Modal (props) {
 
         <div className={styles.modalHeader}>
 
-          <h4 className={styles.modalTitle}>{props.title}</h4>
+          <h3 className={styles.modalTitle}>{props.title}</h3>
 
           <div onClick={props.onClose} className={styles.closeButton}><span className={styles.x1} /><span className={styles.x2} /></div>
 

@@ -12,7 +12,7 @@ export default function Navbar () {
           alt="Chesapeake Bay Oil logo"
         />
         <div className={styles.headline}>
-          <h1>ChesapeakeBayOil.com</h1>
+          <h1>Chesapeake Bay Oil</h1>
           <h2><i>Let us help you solve your heating oil tank issues.</i></h2>
         </div>
       </nav>
