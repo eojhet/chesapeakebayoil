@@ -12,7 +12,7 @@ export default function Suffolk () {
       </Head>
       <main className={styles.container}>
         <section>
-          <Link href='/'><span className={styles.backButton}>&larr; Back To Home</span></Link>
+          <Link href='/' passHref><span className={styles.backButton}>&larr; Back To Home</span></Link>
           <h1>Heating Oil Tank Information for Suffolk Virginia</h1>
           <article>
             <h2>Permitting in the City of Suffolk</h2>

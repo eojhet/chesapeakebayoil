@@ -12,7 +12,7 @@ export default function NewportNews () {
       </Head>
       <main className={styles.container}>
         <section>
-          <Link href='/'><span className={styles.backButton}>&larr; Back To Home</span></Link>
+          <Link href='/' passHref><span className={styles.backButton}>&larr; Back To Home</span></Link>
           <h1>Heating Oil Tank Information for Newport News Virginia</h1>
           <article>
             <h2>Permitting in the City of Newport News</h2>
