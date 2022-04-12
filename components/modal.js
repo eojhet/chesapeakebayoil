@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import styles from '/styles/Modal.module.scss';
 
 export default function Modal (props) {
