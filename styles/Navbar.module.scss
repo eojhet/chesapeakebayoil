@@ -15,20 +15,21 @@
 
   .svg {
     margin: 2rem;
+    cursor: pointer;
   }
 
   .headline {
     margin-right: 1rem;
   }
 
-  h1 {
+  h2 {
     font-size: 1.8em;
     line-height: 0.8em;
     color:hsla(208, 85%, 35%, 1);
     text-align: right;
   }
 
-  h2 {
+  h3 {
     font-size: 1.2em;
     text-align: center;
   }
@@ -42,7 +43,7 @@
       margin: 1rem;
     }
 
-    h1 {
+    h2 {
       text-align: center;
     }
   }

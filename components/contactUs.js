@@ -105,7 +105,7 @@ export default function ContactUs () {
     <aside className={styles.aside}>
       <form className={styles.form}>
 
-        <h2>Contact Us!</h2>
+        <h2 id="contactUs">Contact Us!</h2>
 
         <label>Full Name:</label>
         <br />

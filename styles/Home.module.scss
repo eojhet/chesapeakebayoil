@@ -11,6 +11,12 @@
     flex-direction: column;
     max-width: 850px;
 
+    h1 {
+      text-align: center;
+      font-size: 1.6em;
+      font-weight: 600;
+    }
+
     article {
      box-shadow: 2px 2px 10px hsla(0, 0%, 33%, 0.2);
      padding: 1rem;
@@ -19,7 +25,13 @@
 
      h2 {
        font-size: 1.4em;
+       font-weight: 500;
      }
+
+     p {
+      font-size: 1.2em;
+      font-weight: 300;
+    }
 
      img {
        width: 100%;
@@ -34,6 +46,32 @@
     a {
       color: blue;
       text-decoration: underline;
+    }
+
+    small {
+      display: block;
+      text-align: right;
+    }
+
+    .citiesList {
+      list-style-type: none;
+      text-indent: 0;
+      margin: 0;
+      padding: 0;
+      
+      li {
+        display: inline-block;
+        border: 1px solid hsla(208, 71%, 56%, 0.8);
+        background-color: hsla(208, 71%, 56%, 0.1);
+        padding: 0.5rem 0.7rem;
+        border-radius: 10px;
+        margin: 0.4rem;
+
+        a {
+          text-decoration: none;
+          color: inherit;
+        }
+      }
     }
   }
 }

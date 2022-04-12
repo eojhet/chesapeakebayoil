@@ -1,9 +1,8 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import { useState } from 'react';
 import ContactUs from '../components/contactUs';
-import Footer from '../components/footer';
 import Modal from '../components/modal';
-import Navbar from '../components/navbar';
 import styles from '../styles/Home.module.scss';
 
 export default function Home() {
@@ -18,12 +17,12 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Heating oil tank information for spills, leaks, removal, and abatement.</title>
+        <title>Heating oil spills, leaks, removal, and abatement Hampton Roads</title>
       </Head>
-      <Navbar />    
 
       <main className={styles.container} tabIndex="0" onKeyDown={closeOnEscapeKeyDown}>
         <section>
+          <h1>What To Do About an Unused or Leaking Heating Oil Tank</h1>
           <article>
             <h2>Aboveground and Underground Storage Tanks</h2>
             <img
@@ -75,13 +74,23 @@ export default function Home() {
             <h2>Unused Heating Oil Tanks</h2>
             <p>{"Over the years, homes have been improved with newer heating systems using natural gas or electricity. Quite often, underground storage tanks are improperly abandoned, leaving the steel tank to rot in the ground without removing its contents. The fuel will eventually leak into the ground and potentially contaminate nearby water bodies and drinking wells."}</p>
             <p>{"These imporperly abandoned tanks are out of sight and out of mind until it is time to sell the property. Home inspectors will typically look for signs of heating oil tanks prior to a property transaction, even if the home isn't currently heated with oil. If one is found, the buyer may insist that the tank be properly abandoned or they may at least request a soil sample to ensure that the soil has not been contaminated."}</p>
-            <p>{"If you have a heating oil tank that is currently not-in-use, we can help you find a contractor who can give you options for tank abatement at a low cost. Feel free to leave your information in the Contact Us form with any questions or concerns regarding your oil tank and we will be able to assist you within one business day or less."}</p>
-
+            <p>{"If you have a heating oil tank that is currently not-in-use, we can help you find a contractor who can provide options for tank abatement at a low cost. Feel free to leave your information in the "}<a href='#contactUs'>Contact Us</a>{" form with any questions or concerns regarding your oil tank and we will be able to assist you within one business day or less."}</p>
+          </article>
+          <article>
+            <h2>Find City Specific Information</h2>
+            <ul className={styles.citiesList}>
+              <li><Link href="/chesapeake">Chesapeake</Link></li>
+              <li><Link href="/hampton">Hampton</Link></li>
+              <li><Link href="/newportnews">Newport News</Link></li>
+              <li><Link href="/norfolk">Norfolk</Link></li>
+              <li><Link href="/portsmouth">Portsmouth</Link></li>
+              <li><Link href="/virginiabeach">Virginia Beach</Link></li>
+              <li><Link href="/suffolk">Suffolk</Link></li>
+            </ul>
           </article>
         </section>
         <ContactUs />
       </main>
-      <Footer />
     </>
   )
 }
