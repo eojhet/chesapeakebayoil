@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import ContactUs from "../components/contactUs"
 import styles from '../styles/Home.module.scss';
 
@@ -11,6 +12,7 @@ export default function Portsmouth () {
       </Head>
       <main className={styles.container}>
         <section>
+          <Link href='/'><span className={styles.backButton}>&larr; Back To Home</span></Link>
           <h1>Heating Oil Tank Information for Portsmouth Virginia</h1>
           <article>
             <h2>Permitting in the City of Portsmouth</h2>
