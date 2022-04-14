@@ -52,7 +52,7 @@ export default function Home() {
             <ul>
               <li>{"Report sudden changes in oil levels to your oil supplier."}</li>
               <li>{"Use sight and smell. If you can smell petroleum vapors in your house or yard, or you have spotted a new patch of dead grass near your oil tank, "}
-              <a target={'_blank'} href="https://www.deq.virginia.gov/get-involved/about-deq/contact-us">{"contact the VDEQ immediately."}</a></li>
+              <a target={'_blank'} rel='noreferrer' href="https://www.deq.virginia.gov/get-involved/about-deq/contact-us">{"contact the VDEQ immediately."}</a></li>
               <li>{"Contact a local environmental company and ask for a soil boring to determine if oil has leaked into surrounding subsurface soils."}</li>
             </ul>
           </article>
@@ -80,9 +80,9 @@ export default function Home() {
             <p>{"Over the years, homes have been improved with newer heating systems using natural gas or electricity. Quite often, underground storage tanks are improperly abandoned, leaving the steel tank to rot in the ground without removing its contents. The fuel will eventually leak into the ground and potentially contaminate nearby water bodies and drinking wells."}</p>
             <p>{"These imporperly abandoned tanks are out of sight and out of mind until it is time to sell the property. Home inspectors will typically look for signs of heating oil tanks prior to a property transaction, even if the home isn't currently heated with oil. If one is found, the buyer may insist that the tank be properly abandoned or they may at least request a soil sample to ensure that the soil has not been contaminated."}</p>
             <p>{"According to the 2018 Virginia Statewide Fire Prevention Code "}
-            <a target={'_blank'} href="https://codes.iccsafe.org/content/VFC2018P2/chapter-1-administration#VFC2018P2_Ch01_Sec103">{"Section 103.1 General"}</a>
+            <a target={'_blank'} rel='noreferrer' href="https://codes.iccsafe.org/content/VFC2018P2/chapter-1-administration#VFC2018P2_Ch01_Sec103">{"Section 103.1 General"}</a>
             {", the state of Virginia adopts and incorporates by reference the International Fire Code 2018 edition (IFC 2018). In that document, IFC 2018 "}
-            <a target={'_blank'} href="https://codes.iccsafe.org/content/IFC2018P6/chapter-57-flammable-and-combustible-liquids">{"Section 5704.2.13"}</a>
+            <a target={'_blank'} rel='noreferrer' href="https://codes.iccsafe.org/content/IFC2018P6/chapter-57-flammable-and-combustible-liquids">{"Section 5704.2.13"}</a>
             {" lays out a number of rules concerning abandonment and status of tanks."}</p>
 
             <p>{"Below is an excerpt from IFC 2018 "}<strong>{"Section 5704.13.1 Underground Tanks:"}</strong></p>
