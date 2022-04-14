@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import CityLinks from "../components/cityLinks";
 import ContactUs from "../components/contactUs"
 import styles from '../styles/Home.module.scss';
 
@@ -35,6 +36,7 @@ export default function VirginiaBeach () {
 
             <p>{"If you have a heating oil tank that is currently not-in-use, or you suspect that your tank may be leaking fuel, we can help you find a contractor who can provide options for tank abatement at a low cost. Feel free to leave your information in the "}<a href='#contactUs'>Contact Us</a>{" form with any questions or concerns regarding your oil tank and we will be able to assist you within one business day or less."}</p>
           </article>
+          <CityLinks />
         </section>
         <ContactUs />
       </main>

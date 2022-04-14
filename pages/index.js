@@ -1,6 +1,6 @@
 import Head from 'next/head';
-import Link from 'next/link';
 import { useState } from 'react';
+import CityLinks from '../components/cityLinks';
 import ContactUs from '../components/contactUs';
 import Modal from '../components/modal';
 import styles from '../styles/Home.module.scss';
@@ -120,18 +120,7 @@ export default function Home() {
             <h2>Need More Information or Advice?</h2>
             <p>{"If you have a heating oil tank that is currently not-in-use or you believe your tank may be leaking, we can help you find a contractor who can provide options for tank abatement at a low cost. Feel free to leave your information in the "}<a href='#contactUs'>Contact Us</a>{" form with any questions or concerns regarding your oil tank and we will be able to assist you within one business day or less."}</p>
           </article>
-          <article>
-            <h2>Find City Specific Information</h2>
-            <ul className={styles.citiesList}>
-              <li><Link href="/chesapeake">Chesapeake</Link></li>
-              <li><Link href="/hampton">Hampton</Link></li>
-              <li><Link href="/newportnews">Newport News</Link></li>
-              <li><Link href="/norfolk">Norfolk</Link></li>
-              <li><Link href="/portsmouth">Portsmouth</Link></li>
-              <li><Link href="/virginiabeach">Virginia Beach</Link></li>
-              <li><Link href="/suffolk">Suffolk</Link></li>
-            </ul>
-          </article>
+          <CityLinks />
         </section>
         <ContactUs />
       </main>
