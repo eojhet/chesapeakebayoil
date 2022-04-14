@@ -8,7 +8,11 @@ export default function Suffolk () {
   return (
     <>
       <Head>
-        <title>Heating oil spills, leaks, removal, and abatement in Suffolk</title>
+        <title>Heating Oil Spills, Leaks, Removal, and Abatement in Suffolk</title>
+        <meta property='og:title' content='Suffolk Heating Oil Spills, Leaks, Removal, and Abatement.' />
+        <meta property='og:url' content='https://www.chesapeakebayoil.com/suffolk' />
+        <meta property='og:type' content='article' />
+        <meta propety='og:description' content='How to address unused or potentially leaking heating oil tanks in Suffolk, Virginia.' />
       </Head>
       <main className={styles.container}>
         <section>

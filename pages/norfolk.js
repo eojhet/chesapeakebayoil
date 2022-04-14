@@ -7,8 +7,12 @@ export default function Norfolk () {
 
   return (
     <>
-      <Head>
-        <title>Heating oil spills, leaks, removal, and abatement in Norfolk</title>
+     <Head>
+        <title>Heating Oil Spills, Leaks, Removal, and Abatement in Norfolk</title>
+        <meta property='og:title' content='Norfolk Heating Oil Spills, Leaks, Removal, and Abatement.' />
+        <meta property='og:url' content='https://www.chesapeakebayoil.com/norfolk' />
+        <meta property='og:type' content='article' />
+        <meta propety='og:description' content='How to address unused or potentially leaking heating oil tanks in Norfolk, Virginia.' />
       </Head>
       <main className={styles.container}>
         <section>

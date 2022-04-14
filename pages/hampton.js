@@ -8,7 +8,11 @@ export default function Hampton () {
   return (
     <>
       <Head>
-        <title>Heating oil spills, leaks, removal, and abatement in Hampton</title>
+        <title>Heating Oil Spills, Leaks, Removal, and Abatement in Hampton</title>
+        <meta property='og:title' content='Hampton Heating Oil Spills, Leaks, Removal, and Abatement.' />
+        <meta property='og:url' content='https://www.chesapeakebayoil.com/hampton' />
+        <meta property='og:type' content='article' />
+        <meta propety='og:description' content='How to address unused or potentially leaking heating oil tanks in Hampton, Virginia.' />
       </Head>
       <main className={styles.container}>
         <section>

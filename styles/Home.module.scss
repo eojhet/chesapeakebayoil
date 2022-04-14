@@ -28,7 +28,7 @@
      box-shadow: 2px 2px 10px hsla(0, 0%, 33%, 0.2);
      padding: 1rem;
      margin: 1rem 0;
-     border-radius: 10px;
+     border-radius: 4px;
 
      h2 {
        font-size: 1.4em;
@@ -42,12 +42,25 @@
 
      img {
        width: 100%;
-       border-radius: 10px;
+       border-radius: 4px;
      }
      
      .link {
        cursor: pointer;
      }
+
+     dt {
+       padding-bottom: 0.5rem;
+       text-indent: 1rem;
+     }
+
+     dd {
+       padding-bottom: 0.5rem;
+      li {
+        padding-bottom: 0.5rem;
+      }
+     }
+
     }
 
     a {

@@ -8,7 +8,11 @@ export default function Chesapeake () {
   return (
     <>
       <Head>
-        <title>Heating oil spills, leaks, removal, and abatement in Chesapeake</title>
+        <title>Heating Oil Spills, Leaks, Removal, and Abatement in Chesapeake</title>
+        <meta property='og:title' content='Chesapeake Heating Oil Spills, Leaks, Removal, and Abatement.' />
+        <meta property='og:url' content='https://www.chesapeakebayoil.com/chesapeake' />
+        <meta property='og:type' content='article' />
+        <meta propety='og:description' content='How to address unused or potentially leaking heating oil tanks in Chesapeake, Virginia.' />
       </Head>
       <main className={styles.container}>
         <section>

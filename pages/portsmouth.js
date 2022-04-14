@@ -8,7 +8,11 @@ export default function Portsmouth () {
   return (
     <>
       <Head>
-        <title>Heating oil spills, leaks, removal, and abatement in Portsmouth</title>
+        <title>Heating Oil Spills, Leaks, Removal, and Abatement in Portsmouth</title>
+        <meta property='og:title' content='Portsmouth Heating Oil Spills, Leaks, Removal, and Abatement.' />
+        <meta property='og:url' content='https://www.chesapeakebayoil.com/portsmouth' />
+        <meta property='og:type' content='article' />
+        <meta propety='og:description' content='How to address unused or potentially leaking heating oil tanks in Portsmouth, Virginia.' />
       </Head>
       <main className={styles.container}>
         <section>

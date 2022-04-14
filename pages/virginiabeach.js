@@ -8,7 +8,11 @@ export default function VirginiaBeach () {
   return (
     <>
       <Head>
-        <title>Heating oil spills, leaks, removal, and abatement in Virginia Beach</title>
+        <title>Heating Oil Spills, Leaks, Removal, and Abatement in Virginia Beach</title>
+        <meta property='og:title' content='Virginia Beach Heating Oil Spills, Leaks, Removal, and Abatement.' />
+        <meta property='og:url' content='https://www.chesapeakebayoil.com/virginiabeach' />
+        <meta property='og:type' content='article' />
+        <meta propety='og:description' content='How to address unused or potentially leaking heating oil tanks in Virginia Beach, Virginia.' />
       </Head>
       <main className={styles.container}>
         <section>

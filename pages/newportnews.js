@@ -8,7 +8,11 @@ export default function NewportNews () {
   return (
     <>
       <Head>
-        <title>Heating oil spills, leaks, removal, and abatement in Newport News</title>
+        <title>Heating Oil Spills, Leaks, Removal, and Abatement in Newport News</title>
+        <meta property='og:title' content='Newport News Heating Oil Spills, Leaks, Removal, and Abatement.' />
+        <meta property='og:url' content='https://www.chesapeakebayoil.com/newportnews' />
+        <meta property='og:type' content='article' />
+        <meta propety='og:description' content='How to address unused or potentially leaking heating oil tanks in Newport News, Virginia.' />
       </Head>
       <main className={styles.container}>
         <section>
