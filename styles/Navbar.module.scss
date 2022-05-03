@@ -1,50 +1,106 @@
 .container {
-  background-color: hsla(208, 71%, 56%, 0.2);
+  // background-color: rgba(63, 148, 222, 0.2);
+  background: rgb(63,148,222);
+  background: linear-gradient(180deg, rgba(63,148,222,0.25) 70%, rgba(255,255,255,1) 100%); 
   border-top: 2px solid hsla(14, 71%, 56%, 0.5);
   border-bottom: 2px solid hsla(14, 71%, 56%, 0.5);
   box-shadow: 2px 2px 10px hsla(0, 0%, 33%, 0.2);
 }
 
 .nav {
-  max-width: 1100px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  margin: auto;
-
-  .svg {
-    margin: 2rem;
-    cursor: pointer;
-  }
-
-  .headline {
-    margin-right: 1rem;
-  }
-
-  h2 {
-    font-size: 1.8em;
-    line-height: 0.8em;
-    color:hsla(208, 85%, 35%, 1);
-    text-align: right;
-  }
-
-  h3 {
-    font-size: 1.2em;
-    text-align: center;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  .nav {
-    flex-direction: column;
+  .banner {
+    max-width: 1100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
 
     .svg {
-      margin: 1rem;
+      margin: 2rem;
+      cursor: pointer;
+    }
+
+    .headline {
+      margin-right: 1rem;
     }
 
     h2 {
+      font-size: 1.8em;
+      line-height: 0.8em;
+      color:hsla(208, 85%, 35%, 1);
+      text-align: right;
+    }
+
+    h3 {
+      font-size: 1.2em;
       text-align: center;
+    }
+  }
+
+  .linkContainer {
+    background-color: rgba(63, 148, 222, 0.2);
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .citiesList {
+    max-width: 1100px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+    .link {
+      display: inline-block;
+      text-align: center;
+      padding: 0.5rem 1rem;
+      font-weight: 500;
+      font-size: 1.1em;
+      border-left: 1px solid #999;
+      cursor: pointer;
+
+      &:last-child {
+        border-right: 1px solid #999;
+      }
+
+      &:hover {
+        background-color: hsla(208, 71%, 56%, 0.2);
+      }
+    }
+
+    .curLink {
+      @extend .link;
+      background-color: hsla(208, 71%, 56%, 0.2);
+    }
+  }
+}
+
+@media only screen and (min-width: 1090px) {
+  .link {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .nav {
+    .banner {
+      flex-direction: column;
+
+      .svg {
+        margin: 1rem;
+      }
+
+      h2 {
+        text-align: center;
+      }
+    }
+
+    .citiesList {
+      display: none;
     }
   }
 }
