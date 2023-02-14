@@ -11,6 +11,7 @@ export default function Document() {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600&display=swap" rel="stylesheet" /> 
         <link rel="icon" type="image/x-icon" href="/favicon.ico?v=7" />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4324878277847089" crossOrigin="anonymous"></script>
       </Head>
       <body>
         <Main />
