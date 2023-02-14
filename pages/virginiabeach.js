@@ -32,7 +32,7 @@ export default function VirginiaBeach () {
             />
             <small>King Neptune, Bronze, Virginia Beach, Virginia.</small>
 
-            <p>{"Virginia Beach inspections requires that tanks located within approximately 3.5 feet from the foundation to a structure be filled with a concrete slurry. These tanks cannot be pulled as it could be a risk to the structural integrity of the on-site structure, possibly resulting in cracks to the foundation or exterior walls. Those tanks not within the 3.5 foot zone can be pulled from the ground or, if the homeowner is unwilling to remove due to a tank being beneath a paved area or patio, can be filled with a concrete slurry."}</p>
+            <p>{"Virginia Beach inspections requires that tanks located within approximately 3.5 feet of the foundation for a structure be filled with a concrete slurry. These tanks cannot be pulled as it could risk the integrity of the on-site structure, possibly resulting in cracks to the foundation or exterior walls. Those tanks not within the 3.5 foot zone can be pulled from the ground, or, if the homeowner is unwilling to remove due to a tank being beneath a paved area or patio, may be filled with a concrete slurry."}</p>
 
             <p>{"If you have a heating oil tank that is currently not-in-use, or you suspect that your tank may be leaking fuel, we can help you find a contractor who can provide options for tank abatement at a low cost. Feel free to leave your information in the "}<a href='#contactUs'>Contact Us</a>{" form with any questions or concerns regarding your oil tank and we will be able to assist you within one business day or less."}</p>
           </article>
