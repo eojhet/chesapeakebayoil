@@ -12,7 +12,7 @@ export default function handler (req, res) {
         user: process.env.EMAIL_SENDER,
         pass: process.env.EMAIL_PASS,
       },
-      secure: true,
+      secure: false,
     });
 
     const mailData = {
