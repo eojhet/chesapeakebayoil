@@ -26,7 +26,7 @@ export default function Chesapeake () {
             
             <img
               id='chesapeake'
-              src='/static/city_chesapeake.jpg'
+              src='/static/city_chesapeake_opt.jpg'
               alt='Great Dismal Swamp Canal'
             />
             <small>The Great Dismal Swamp Canal - US Army Corps of Engineers, photographer not specified.</small>

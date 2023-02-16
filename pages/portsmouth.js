@@ -25,7 +25,7 @@ export default function Portsmouth () {
 
             <img
               id='portsmouth'
-              src='/static/city_portsmouth.jpg'
+              src='/static/city_portsmouth_opt.jpg'
               alt='River Front Park, Portsmouth, VA.'
             />
             <small>River Front Park, Portsmouth, Virginia.</small>

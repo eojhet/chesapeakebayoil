@@ -32,14 +32,14 @@ export default function Home() {
             <img
               id='pic1'
               className={styles.link}
-              src='/static/tank_ast_ust.jpg'
+              src='/static/tank_ast_ust_opt.jpg'
               alt='Above and below ground heating oil tanks'
               onClick={() => setPic1(true)}
             />
 
             <Modal onClose={() => setPic1(false)} show={pic1} title="Aboveground and Underground Storage Tanks">
               <img
-                src='/static/tank_ast_ust.jpg'
+                src='/static/tank_ast_ust_opt.jpg'
                 alt='Above and below ground heating oil tanks'
               />
             </Modal>
@@ -61,14 +61,14 @@ export default function Home() {
             <img
               id='pic2'
               className={styles.link}
-              src='/static/tank_dead_grass.jpg'
+              src='/static/tank_dead_grass_opt.jpg'
               alt='Photo of dead grass around fill port and vent pipe.'
               onClick={() => setPic2(true)}
             />
 
             <Modal onClose={() => setPic2(false)} show={pic2} title="Dead Grass and Staining Near Tank.">
               <img
-                src='/static/tank_dead_grass.jpg'
+                src='/static/tank_dead_grass_opt.jpg'
                 alt='Photo of dead grass around fill port and vent pipe.'
               />
             </Modal>
