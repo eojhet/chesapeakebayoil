@@ -13,7 +13,8 @@
     "nodemailer": "^6.7.3",
     "react": "18.0.0",
     "react-dom": "18.0.0",
-    "sass": "^1.49.11"
+    "sass": "^1.49.11",
+    "sharp": "^0.31.3"
   },
   "devDependencies": {
     "eslint": "8.12.0",

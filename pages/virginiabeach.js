@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import Link from "next/link";
 import CityLinks from "../components/cityLinks";
 import ContactUs from "../components/contactUs"
@@ -25,11 +26,18 @@ export default function VirginiaBeach () {
             <a target={'_blank'} rel='noreferrer' href="https://www.vbgov.com/government/departments/planning/permits-inspections/pages/underground-aboveground-storage-tanks.aspx">{"Underground & Aboveground Storage Tanks - Permits & Inspections FAQs"}</a>
             {". However, local contractors and city inspectors have pointed out that permitting for an aboveground storage tank removal is not actually required."} </p>
 
-            <img
+            <Image
+              src="/static/city_virginiaBeach.jpg"
+              alt="Statue of Neptune in Virginia Beach."
+              width={1280}
+              height={960}
+            />
+            
+            {/* <img
               id='virginiaBeach'
               src='/static/city_virginiaBeach.jpg'
               alt='Statue of Neptune in Virginia Beach.'
-            />
+            /> */}
             <small>King Neptune, Bronze, Virginia Beach, Virginia.</small>
 
             <p>{"Virginia Beach inspections requires that tanks located within approximately 3.5 feet of the foundation for a structure be filled with a concrete slurry. These tanks cannot be pulled as it could risk the integrity of the on-site structure, possibly resulting in cracks to the foundation or exterior walls. Those tanks not within the 3.5 foot zone can be pulled from the ground, or, if the homeowner is unwilling to remove due to a tank being beneath a paved area or patio, may be filled with a concrete slurry."}</p>

@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Image from 'next/image';
 import { useState } from 'react';
 import CityLinks from '../components/cityLinks';
 import ContactUs from '../components/contactUs';
@@ -29,18 +30,31 @@ export default function Home() {
           <h1>What To Do About an Unused or Leaking Heating Oil Tank</h1>
           <article>
             <h2>Aboveground and Underground Storage Tanks</h2>
-            <img
+
+            <Image
+              id='pic1'
+              className={styles.link}
+              src='/static/tank_ast_ust_opt.jpg'
+              alt='Above and below ground heating oil tanks'
+              width={1200}
+              height={800}
+              onClick={() => setPic1(true)}
+            />
+
+            {/* <img
               id='pic1'
               className={styles.link}
               src='/static/tank_ast_ust_opt.jpg'
               alt='Above and below ground heating oil tanks'
               onClick={() => setPic1(true)}
-            />
+            /> */}
 
             <Modal onClose={() => setPic1(false)} show={pic1} title="Aboveground and Underground Storage Tanks">
-              <img
+              <Image
                 src='/static/tank_ast_ust_opt.jpg'
                 alt='Above and below ground heating oil tanks'
+                width={1200}
+                height={800}
               />
             </Modal>
 
@@ -58,18 +72,31 @@ export default function Home() {
           </article>
           <article>
             <h2>Dead Grass and Staining Near Tank.</h2>
-            <img
+            
+            <Image
+              id='pic2'
+              className={styles.link}
+              src='/static/tank_dead_grass_opt.jpg'
+              alt='Photo of dead grass around fill port and vent pipe.'
+              width={1200}
+              height={800}
+              onClick={() => setPic2(true)}
+            />
+
+            {/* <img
               id='pic2'
               className={styles.link}
               src='/static/tank_dead_grass_opt.jpg'
               alt='Photo of dead grass around fill port and vent pipe.'
               onClick={() => setPic2(true)}
-            />
+            /> */}
 
             <Modal onClose={() => setPic2(false)} show={pic2} title="Dead Grass and Staining Near Tank.">
-              <img
+              <Image
                 src='/static/tank_dead_grass_opt.jpg'
                 alt='Photo of dead grass around fill port and vent pipe.'
+                width={1200}
+                height={800}
               />
             </Modal>
 

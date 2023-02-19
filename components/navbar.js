@@ -1,6 +1,7 @@
 import styles from '/styles/Navbar.module.scss';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const links = [
   ['/chesapeake', 'Chesapeake'],
@@ -38,13 +39,16 @@ export default function Navbar () {
     <div className={styles.container}>
       <nav className={styles.nav}>
         <div className={styles.banner}>
-          <img 
+
+          <Image 
             src="/static/ChesapeakeBayOilOpt.svg" 
             width={200}
+            height={83}
             className={styles.svg}
             alt="Chesapeake Bay Oil logo"
             onClick={() => router.push('/')}
           />
+
           <div className={styles.headline}>
             <h2>Chesapeake Bay Oil</h2>
             <h3><i>Let us help you solve your heating oil tank issues.</i></h3>

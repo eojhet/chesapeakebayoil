@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import Link from "next/link";
 import CityLinks from "../components/cityLinks";
 import ContactUs from "../components/contactUs"
@@ -25,11 +26,18 @@ export default function Norfolk () {
             <a target={'_blank'} rel='noreferrer' href="https://www.norfolk.gov/619/Fire-Inspections-Permits">Norfolk Fire Marshal</a>
             {" does require permitting and inspection for UST abatements."}</p>
 
-            <img
+            <Image
+              src='/static/city_norfolk.jpg'
+              alt='Downtown Norfolk, Virginia Skyline'
+              width={1280}
+              height={816}
+            />
+
+            {/* <img
               id='norfolk'
               src='/static/city_norfolk.jpg'
               alt='Downtown Norfolk, Virginia Skyline'
-            />
+            /> */}
             <small>Downtown Norfolk, Virginia Skyline.</small>
 
             <p>{"The Norfolk Fire Marshal does not have guidelines dictating how a tank should be abated beyond those within the Internation Fire Code 2018 regulations. It is up to the homeowner and their consultant to decide as to whether a tank should be removed from the ground or filled in place with sand or concrete slurry. It is best to not remove tanks situated within 3 feet of the foundation of an on-site structure, so as to prevent the foundation and exterior walls from forming cracks. It is safest to fill tanks closer than 3 feet with a concrete slurry."}</p>

@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import Link from "next/link";
 import CityLinks from "../components/cityLinks";
 import ContactUs from "../components/contactUs"
@@ -23,11 +24,18 @@ export default function Portsmouth () {
             <h2>Permitting in the City of Portsmouth</h2>
             <p>{"The City of Portsmouth requires that a mechanical permit application be submitted for the installation or removal of fuel storage tanks. More details can be found on the "} <a target={'_blank'} rel='noreferrer' href="https://www.portsmouthva.gov/312/Permits-Inspections">{"Portsmouth Permits & Inspections website."}</a></p>
 
-            <img
+            <Image
+              src='/static/city_portsmouth_opt.jpg'
+              alt='River Front Park, Portsmouth, VA.'
+              width={1280}
+              height={853}
+            />
+
+            {/* <img
               id='portsmouth'
               src='/static/city_portsmouth_opt.jpg'
               alt='River Front Park, Portsmouth, VA.'
-            />
+            /> */}
             <small>River Front Park, Portsmouth, Virginia.</small>
 
             <p>{"Portsmouth requires an inspection for underground storage tank abatements, whether the tank is removed from the ground or filled-in-place with concrete or sand. Tanks within approximately 3 feet of the foundation for a structure should be filled-in-place rather than pulled from the ground so as to not risk the integrity of the on-site structure."}</p>
