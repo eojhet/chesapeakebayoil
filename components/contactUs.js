@@ -107,10 +107,10 @@ export default function ContactUs () {
 
         <h2 id="contactUs">Contact Us!</h2>
 
-        <label>Full Name:</label>
+        <label htmlFor="name">Full Name:</label>
         <br />
         <input
-          name="name"
+          id="name"
           value={name}
           autoComplete="name"
           onChange={e => setName(e.target.value)}
@@ -120,10 +120,10 @@ export default function ContactUs () {
         <br />
         <div className={styles.warning}>{nameWarn}&nbsp;</div>
 
-        <label>Email:&nbsp;</label>
+        <label htmlFor="email">Email:&nbsp;</label>
         <br />
         <input
-          name="email"
+          id="email"
           value={email}
           autoComplete="email"
           onChange={e => setEmail(e.target.value)}
@@ -132,10 +132,10 @@ export default function ContactUs () {
         />
         <div className={styles.warning}>{emailWarn}&nbsp;</div>
 
-        <label>Phone (optional):</label>
+        <label htmlFor="phone">Phone (optional):</label>
         <br />
         <input
-          name="phone"
+          id="phone"
           value={phone}
           autoComplete="tel"
           placeholder='123-456-7890'
@@ -145,10 +145,10 @@ export default function ContactUs () {
         />
         <div className={styles.warning}>{phoneWarn}&nbsp;</div>
 
-        <label>Questions/Concerns:</label>
+        <label htmlFor="comment">Questions/Concerns:</label>
         <br />
         <textarea
-          name="comment"
+          id="comment"
           value={comment}
           onChange={e => setComment(e.target.value)}
           maxLength={1024}
